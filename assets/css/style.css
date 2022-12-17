@@ -1,0 +1,30 @@
+nav {
+    background-color: 300ms;
+   
+}
+
+nav span, .nav-item a {
+color: white;1
+}
+
+/* Quienes Somos */
+
+#Quienes-Somos{
+    background-color: black;
+    color: white;
+}
+
+#Quienes-Somos i {
+    background-color: rgb(9, 200, 238);
+    width: 100%;
+    text-align: center;
+ 
+}
+/* Creando Cuatro Tarjetas en 1 fila*/
+#Destacados {
+    background-color: black;
+    color: white;
+}
+.card-body {
+    background-color: rgb(9, 200, 238);
+}

@@ -20,7 +20,7 @@ color: white;1
     text-align: center;
  
 }
-/* Creando Cuatro Tarjetas en 1 fila*/
+/* Creando Cuatro Tarjetas en 1 fila */
 #Destacados {
     background-color: black;
     color: white;
@@ -28,3 +28,16 @@ color: white;1
 .card-body {
     background-color: rgb(9, 200, 238);
 }
+/* Creando Formulario de Contacto */
+#Contacto {
+    background-color: black;
+    color: white;
+}
+#Contacto button {
+    background-color: rgb(9, 200, 238);
+    color: white;
+    
+
+}
+
+

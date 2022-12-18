@@ -35,9 +35,11 @@ color: white;1
 }
 #Contacto button {
     background-color: rgb(9, 200, 238);
-    color: white;
-    
+    color: white; 
 
 }
 
-
+#Pie {
+    background-color: rgb(9, 200, 238);
+    color: white; 
+}

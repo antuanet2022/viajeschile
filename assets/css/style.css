@@ -1,53 +1,55 @@
-nav {
-    background-color: 300ms;
-   
+html  {
+    scroll-behavior: auto !important; /* anulando el smooth scroll de Bootstrap */
 }
 
-nav span, .nav-item a {
-color: white;1
+.navbar {
+    background-color: 300ms;
+    position:fixed;
+    width: 100vw;
+    z-index: 2; /* para trabajar en capas, sobreponer el menu sobre las otras vistas sections */
+ 
+     
+}
+.navbar span {
+    color: white;
+}
+.navbar-nav a{
+    color: white;
 }
 
 /* Quienes Somos */
 
-#Quienes-Somos{
+#quienes-somos{
     background-color: black;
     color: white;
 }
 
-#Quienes-Somos i {
+#quienes-somos i {
     background-color: rgb(9, 200, 238);
     width: 100%;
     text-align: center;
  
 }
 /* Creando Cuatro Tarjetas en 1 fila */
-#Destacados {
+#destacados {
     background-color: black;
     color: white;
 }
 .card-body {
     background-color: rgb(9, 200, 238);
 }
+
 /* Creando Formulario de Contacto */
-#Contacto {
+#contacto {
     background-color: black;
     color: white;
 }
-#Contacto button {
+#contacto button {
     background-color: rgb(9, 200, 238);
     color: white; 
 
 }
 
-#Pie {
-    background-color: rgb(9, 200, 238);
-    color: white; 
-}
-
-#Pie a {
-    background-color: rgb(9, 200, 238);
-    color: white; 
-}
 
 
 #footer {

@@ -13,7 +13,7 @@ body {
     z-index: 2; /* para trabajar en capas, sobreponer el menu sobre las otras vistas sections */     
 }
 .navbar span {
-    color: white;
+      font-size: 17PX;
 }
 .navbar-nav a{
     color: white;
@@ -29,20 +29,20 @@ body {
     text-align: center; 
 }
 #quienes-somos h1 {
-    font-size: 22PX;
+    font-size: 20PX;
     font-weight: bold;
     color: rgb(230, 225, 225);
 }
 /* Creando Cuatro Tarjetas en 1 fila */
 #destacados {
     background-color: black;
-   }
+       }
 #destacados .card-body {
     background-color: rgb(9, 200, 238);
     columns: white;
 }
 #destacados h2 {
-    font-size: 22PX;
+    font-size: 20px;
     font-weight: bold;
     color: rgb(230, 225, 225);
 }
@@ -55,7 +55,7 @@ body {
     color: white;   
 }
 #contacto h2 {
-    font-size: 22PX;
+    font-size: 20PX;
     font-weight: bold;
     color: rgb(230, 225, 225);
   }
@@ -67,4 +67,11 @@ body {
     background-color: rgb(9, 200, 238);
    color: white;
 }
+#footer h4 {
+    font-size: 18PX;
+    font-weight: bold;
+    color: rgb(230, 225, 225);
+
+}
+
 

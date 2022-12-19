@@ -1,14 +1,16 @@
 html  {
     scroll-behavior: auto !important; /* anulando el smooth scroll de Bootstrap */
 }
-
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(230, 225, 225);
+}
+/* Creando Menu Fijo */
 .navbar {
     background-color: 300ms;
     position:fixed;
     width: 100vw;
-    z-index: 2; /* para trabajar en capas, sobreponer el menu sobre las otras vistas sections */
- 
-     
+    z-index: 2; /* para trabajar en capas, sobreponer el menu sobre las otras vistas sections */     
 }
 .navbar span {
     color: white;
@@ -16,48 +18,53 @@ html  {
 .navbar-nav a{
     color: white;
 }
-
 /* Quienes Somos */
-
 #quienes-somos{
     background-color: black;
-    color: white;
-}
-
+   }
 #quienes-somos i {
     background-color: rgb(9, 200, 238);
     width: 100%;
-    text-align: center;
- 
+    height: 12%;
+    text-align: center; 
+}
+#quienes-somos h1 {
+    font-size: 22PX;
+    font-weight: bold;
+    color: rgb(230, 225, 225);
 }
 /* Creando Cuatro Tarjetas en 1 fila */
 #destacados {
     background-color: black;
-    color: white;
-}
-.card-body {
+   }
+#destacados .card-body {
     background-color: rgb(9, 200, 238);
+    columns: white;
 }
-
+#destacados h2 {
+    font-size: 22PX;
+    font-weight: bold;
+    color: rgb(230, 225, 225);
+}
 /* Creando Formulario de Contacto */
 #contacto {
-    background-color: black;
-    color: white;
+    background-color: black;   
 }
-#contacto button {
+#contacto button2 {
     background-color: rgb(9, 200, 238);
-    color: white; 
-
+    color: white;   
 }
-
-
-
+#contacto h2 {
+    font-size: 22PX;
+    font-weight: bold;
+    color: rgb(230, 225, 225);
+  }
+/* Creando Footer */
 #footer {
     background-color: rgb(9, 200, 238);
-    color: white; 
 }
-
 #footer a {
     background-color: rgb(9, 200, 238);
-    color: white; 
+   color: white;
 }
+

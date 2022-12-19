@@ -12,12 +12,11 @@ body {
     width: 100vw;
     z-index: 2; /* para trabajar en capas, sobreponer el menu sobre las otras vistas sections */     
 }
-.navbar span {
-      font-size: 17PX;
+.navbar span .navbar-brand{
+      font-size: 15px;
+      text-align: left;
 }
-.navbar-nav a{
-    color: white;
-}
+
 /* Quienes Somos */
 #quienes-somos{
     background-color: black;
@@ -33,10 +32,15 @@ body {
     font-weight: bold;
     color: rgb(230, 225, 225);
 }
+#quienes-somos p {
+    font-size: 15PX;
+    font-weight: lighter;
+    color: rgb(230, 225, 225);
+}
 /* Creando Cuatro Tarjetas en 1 fila */
 #destacados {
     background-color: black;
-       }
+}
 #destacados .card-body {
     background-color: rgb(9, 200, 238);
     columns: white;
